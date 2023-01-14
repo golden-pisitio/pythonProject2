@@ -1,0 +1,47 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}География{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Статистика по городам</h1>
+        <img src="{% static 'main/img/table5.jpg'%}" width="450" height="300" alt="Лого">
+        <img src="{% static 'main/img/table4.jpg'%}" width="450" height="300" alt="Лого">
+        </div>
+
+        <div class="table3">
+            <table>
+    <tr><td>Город </td><td>Доля по вакансиям</td></tr>
+    <tr><td>Москва</td><td>35,32%</td></tr>
+    <tr><td>Санкт-Петербург</td><td>21,42%</td></tr>
+    <tr><td>Киев</td><td>14,54%</td></tr>
+    <tr><td>Новосибирск</td><td>5,12%</td></tr>
+    <tr><td>Минск</td><td>3,54%</td></tr>
+    <tr><td>Нижний Новгород</td><td>2,54%</td></tr>
+    <tr><td>Екатеринбург</td><td>2,13%</td></tr>
+    <tr><td>Казань</td><td>1,94%</td></tr>
+    <tr><td>Ростов-на-Дону</td><td>1,54%</td></tr>
+    <tr><td>Воронеж</td><td>0,34%</td></tr>
+    <tr><td>Прочее</td><td>8,57%</td></tr>
+            </table>
+        </div>
+<div class="table4">
+<table>
+    <tr><td>Город </td><td>Уровень зарплат</td></tr>
+    <tr><td>Москва</td><td>145324</td></tr>
+    <tr><td>Санкт-Петербург</td><td>124324</td></tr>
+    <tr><td>Киев</td><td>104324</td></tr>
+    <tr><td>Новосибирск</td><td>82314</td></tr>
+    <tr><td>Минск</td><td>104324</td></tr>
+    <tr><td>Нижний Новгород</td><td>81432</td></tr>
+    <tr><td>Екатеринбург</td><td>82703</td></tr>
+    <tr><td>Казань</td><td>84302</td></tr>
+    <tr><td>Ростов-на-Дону</td><td>74328</td></tr>
+    <tr><td>Воронеж</td><td>94324</td></tr>
+</table>
+    </div>
+    <div class="map1">
+        <img src="{% static 'main/img/map1.jpg'%}" width="800" height="450" alt="Лого">
+    </div>
+{% endblock %}
